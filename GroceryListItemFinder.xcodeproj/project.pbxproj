@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		984AD5592A20695F009C6D34 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AD5582A20695F009C6D34 /* AuthenticationManager.swift */; };
+		984AD55B2A206A04009C6D34 /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 984AD55A2A206A04009C6D34 /* NetworkHelper.swift */; };
 		98AC43352A1F279700A3747B /* GroceryListItemFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC43342A1F279700A3747B /* GroceryListItemFinderApp.swift */; };
 		98AC43372A1F279700A3747B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AC43362A1F279700A3747B /* ContentView.swift */; };
 		98AC43392A1F279900A3747B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98AC43382A1F279900A3747B /* Assets.xcassets */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		984AD5582A20695F009C6D34 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		984AD55A2A206A04009C6D34 /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		98AC43312A1F279700A3747B /* GroceryListItemFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryListItemFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98AC43342A1F279700A3747B /* GroceryListItemFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryListItemFinderApp.swift; sourceTree = "<group>"; };
 		98AC43362A1F279700A3747B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 			children = (
 				98AC43342A1F279700A3747B /* GroceryListItemFinderApp.swift */,
 				98AC43362A1F279700A3747B /* ContentView.swift */,
+				984AD5582A20695F009C6D34 /* AuthenticationManager.swift */,
+				984AD55A2A206A04009C6D34 /* NetworkHelper.swift */,
 				98AC43382A1F279900A3747B /* Assets.xcassets */,
 				98AC433A2A1F279900A3747B /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				984AD55B2A206A04009C6D34 /* NetworkHelper.swift in Sources */,
+				984AD5592A20695F009C6D34 /* AuthenticationManager.swift in Sources */,
 				98AC43372A1F279700A3747B /* ContentView.swift in Sources */,
 				98AC43352A1F279700A3747B /* GroceryListItemFinderApp.swift in Sources */,
 			);
